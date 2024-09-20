@@ -6,9 +6,8 @@ use Kehelle\Tide\TideBaseComponent;
 
 class Dialog extends TideBaseComponent
 {
-
     /**
-     * @inheritDoc
+     * {@inheritDoc}
      */
     public function render()
     {

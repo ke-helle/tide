@@ -2,7 +2,4 @@
 
 namespace Kehelle\Tide\Traits;
 
-trait HasWiredModel
-{
-
-}
+trait HasWiredModel {}

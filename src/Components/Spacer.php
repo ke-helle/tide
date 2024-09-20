@@ -6,9 +6,8 @@ use Kehelle\Tide\TideBaseComponent;
 
 class Spacer extends TideBaseComponent
 {
-
     /**
-     * @inheritDoc
+     * {@inheritDoc}
      */
     public function render()
     {

@@ -6,9 +6,8 @@ use Kehelle\Tide\TideBaseComponent;
 
 class Date extends TideBaseComponent
 {
-
     /**
-     * @inheritDoc
+     * {@inheritDoc}
      */
     public function render()
     {

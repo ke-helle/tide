@@ -2,7 +2,4 @@
 
 namespace Kehelle\Tide\Livewire;
 
-class WizardComponent
-{
-
-}
+class WizardComponent {}
