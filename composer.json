@@ -1,17 +1,25 @@
 {
-    "name": ":vendor_slug/:package_slug",
-    "description": ":package_description",
+    "name": "kehelle/tide",
+    "description": "A set of blade and livewire components",
     "keywords": [
-        ":vendor_name",
+        "Kim Eric Helle",
         "laravel",
-        ":package_slug"
+        "blade",
+        "livewire",
+        "components",
+        "blade components",
+        "livewire components",
+        "form components",
+        "form",
+        "layout",
+        "tide"
     ],
-    "homepage": "https://github.com/:vendor_slug/:package_slug",
+    "homepage": "https://github.com/ke-helle/tide",
     "license": "MIT",
     "authors": [
         {
-            "name": ":author_name",
-            "email": "author@domain.com",
+            "name": "Kim Eric Helle",
+            "email": "kim.helle@webstudios.no",
             "role": "Developer"
         }
     ],
@@ -35,19 +43,19 @@
     },
     "autoload": {
         "psr-4": {
-            "VendorName\\Skeleton\\": "src/",
-            "VendorName\\Skeleton\\Database\\Factories\\": "database/factories/"
+            "Kehelle\\Tide\\": "src/",
+            "Kehelle\\Tide\\Database\\Factories\\": "database/factories/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "VendorName\\Skeleton\\Tests\\": "tests/",
+            "Kehelle\\Tide\\Tests\\": "tests/",
             "Workbench\\App\\": "workbench/app/"
         }
     },
     "scripts": {
         "post-autoload-dump": "@composer run prepare",
-        "clear": "@php vendor/bin/testbench package:purge-skeleton --ansi",
+        "clear": "@php vendor/bin/testbench package:purge-tide --ansi",
         "prepare": "@php vendor/bin/testbench package:discover --ansi",
         "build": [
             "@composer run prepare",
@@ -73,10 +81,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "VendorName\\Skeleton\\SkeletonServiceProvider"
+                "Kehelle\\Tide\\TideServiceProvider"
             ],
             "aliases": {
-                "Skeleton": "VendorName\\Skeleton\\Facades\\Skeleton"
+                "Tide": "Kehelle\\Tide\\Facades\\Tide"
             }
         }
     },

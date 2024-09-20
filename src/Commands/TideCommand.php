@@ -1,12 +1,12 @@
 <?php
 
-namespace VendorName\Skeleton\Commands;
+namespace Kehelle\Tide\Commands;
 
 use Illuminate\Console\Command;
 
-class SkeletonCommand extends Command
+class TideCommand extends Command
 {
-    public $signature = 'skeleton';
+    public $signature = 'tide';
 
     public $description = 'My command';
 
